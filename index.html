@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b3f24cffe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,31 +16,95 @@
             <div class="left">Abhishek Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#secondsection">About</a></li>
                     <li><a href="#">Project</a></li>
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#myfooter">Contact me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsection">
-            <div class="leftsection">Hi, My name is <mark>Abhishek kumar</mark> <div>And I am a</div> <span id="element"></span></div>
-            <div class="rightsection"><img src="dev.jpeg" alt="developer-image"></div>
+        <section class="firstsection" id="firstsection">
+            <div class="leftsection">Hi, My name is <mark style="background-color: rgb(11, 11, 195);">Abhishek kumar</mark> <div>And I am a</div> <span id="element"></span></div>
+            <div class="rightsection"><img src="/images/dev.jpeg" alt="developer-image"></div>
         </section>
         <hr>
-        <section class="secondsection">
-            Academic qualification
+        <section class="secondsection" id="secondsection">
+            <h3>Academic's qualification</h3>
+            <div class="box">
+                <div class="div1 _edu"><mark  style="background-color: rgb(114, 114, 246);">Matric:</mark>
+                <br>Sun rise public school <br>basantpur (HP Board)
+                <br>Scoring(87.71%)</div>
+                
+                <div class="div2 _edu"><mark  style="background-color: rgb(114, 114, 246);">Senior-Secondary:</mark>
+                <br>Govt sen sec school
+                <br>basantpur (HP Board)
+                <br>Scoring(72%)</div>
+
+                <div class="div3 _edu"><mark  style="background-color: rgb(114, 114, 246);">Graduation:</mark>
+                <br>SPN College
+                <br>Mukerian (Panjab University)
+                <br>Pursuing....
+                </div>
+            </div>
+            <img id="oip" src="/images/OIP.jpeg" alt="">
+            <img id="book" src="/images/book.jpeg" alt="">
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <div class="abtupsection">
+                <h1 style="font-size: 4vh;
+    color: rgb(16, 16, 225)">About Me</h1>
+                <br>
+<h2>Hello! I’m Abhishek, a passionate web developer with a love for clean code and creative design. Here’s a little bit about me:</h2>
+
+<h1 style="font-size: 4vh;
+color: rgb(16, 16, 225)">My Journey</h1>
+<h2>🌐 Web Development Enthusiast: I’ve been exploring the vast world of web development from last few years. From crafting pixel-perfect layouts to diving into backend logic, I find joy in every aspect of building web applications.</h2>
+<h2>🎨 Design Lover: As much as I enjoy coding, I’m equally fascinated by design. Whether it’s creating intuitive user interfaces or choosing the perfect color palette, aesthetics matter to me.</h2>
+<h2>🚀 Continuous Learner: The tech landscape evolves rapidly, and I thrive on learning new technologies. HTML, CSS, and JavaScript are my daily companions, and Python adds a touch of versatility to my toolkit.</h2>
+<img src="/images/coding.jpg" alt="">
+</div>
+<div class="abtlowsection">
+<h1 style="font-size: 4vh;
+color: rgb(16, 16, 225)">My Skills</h1>
+<h2>HTML/CSS: I wield these like a painter with a brush, creating responsive and visually appealing websites.</h2>
+<h2>JavaScript: From interactive animations to dynamic forms, JavaScript is where the magic happens.</h2>
+<h2>Python: I’ve dabbled in Python for web scraping, automation, and even a bit of data analysis.</h2>
+<h1 style="font-size: 4vh;
+color: rgb(16, 16, 225)">My Projects</h1>
+<h2>
+Personal Portfolio: You’re currently browsing it! 😉 I built this portfolio using HTML, CSS, JavaScript.</h2>
+<div class="connect">
+<h1 style="font-size: 4vh;
+color: rgb(16, 16, 225)">Let’s Connect</h1>
+<h2>I’m always excited to collaborate, learn, and share ideas. Feel free to reach out via the links below:</h2>
+<h2><a href="https://github.com/CodingAbhi1120" class="fa fa-github">GitHub</a></h2>
+</div>
+        </div>
+            
         </section>
     </main>
+
+    <hr>
+    <footer id="myfooter">
+        <p>THANK YOU FOR VISITING MY WEBSITE</p>
+        <ul style="list-style-type: none; ">
+            <li><h1 style="color:rgb(107, 215, 107); font-size: 2.5em;">Contact info</h1></li>
+            <li> <a href="mailto:abhishek628028@gmail.com" style="  text-decoration: none; color: white; font-size: 1.3em; "><i aria-hidden="true" class="fas fa-envelope"></i>abhishek628028@gmail.com</li></a>
+            <li><a href="tel:6280283174" style="  text-decoration: none; color: white;font-size: 1.3em;"><i aria-hidden="true" class="fas fa-mobile"></i>6280283174</a></li>
+        </ul>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100025024080223&sk=about_contact_and_basic_info" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/abhi_choudhary_1120/" class="fa fa-instagram"></a>
+            <a href="https://github.com/CodingAbhi1120" class="fa fa-github"></a>
+        </div>
+        <hr id="copy">
+        <p id="_copyright">&copy; Copyright ABHISHEK 2024</p>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-      <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer'],
-      typeSpeed: 100,
-    });
+  <script src="script.js">
   </script>
 </body>
 </html>

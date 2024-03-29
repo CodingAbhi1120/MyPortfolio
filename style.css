@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
 }
+main{
+    height: 400vh;
+}
 body{
     background-color: rgb(2, 2, 37);
     color: white;
     font-family:'Poppins',sans-serif;
+    min-height: 200vh;
 }
 nav{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,19 +58,94 @@ nav ul li a:hover{
     padding-left:5% ;
 }
 img {
-    margin: 10px;
-    width: 90%;
+    margin-top: 80px;
+    width: 87%;
+    padding-left: 0%;
 }
 #element{
     color: rgb(16, 16, 225);
-}
-.secondsection{
-    max-width: 80vw;
-    margin: auto;
-    font-size: 1.8em;
 }
 hr{
     border: 0;
     background-color: rgb(7, 7, 239);
     height: 4px;
 }
+.secondsection {
+    max-width: 80vw;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+h3{
+    color: rgb(16, 16, 225);
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-right: 6%;
+    margin-left: -4%;
+    font-weight: 600;
+}
+._edu{
+    opacity: 0.7;
+}
+#oip {
+    margin: 28px;
+    width: 21%;
+    padding-left: 10%;
+}
+#book {
+    margin: 38px;
+    width: 34%;
+    padding-left: 16%;
+}
+.abtupsection{
+    width: 36%;
+    margin: 4vh 20vh;
+    opacity: 0.7;
+}
+.abtlowsection{
+    width: 36%;
+    margin: 4vh 118vh;
+    opacity: 0.7;
+}
+.connect {
+    margin-left: -61%;
+    width: 71%;
+    margin-top: 10%;
+}
+footer{
+    height: 40vh;
+}
+p {
+    color: rgb(107, 215, 107);
+    padding-left: 10%;
+    padding-top: 6%;
+    font-weight:normal;
+    font-size:larger;
+}
+footer ul {
+    padding-left: 77%;
+    margin-top: -6%;
+}
+#copy {
+    margin: 5vh 45vh;
+    height: 3px;
+}
+#_copyright {
+    margin: -15vh 63vh;
+}
+
+.social{
+    margin-left: 30vh;
+}
+.fa {
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook { color: #3B5998; }
+.fa-instagram { color: #E1306C; }
+.fa-github { color: #333; }
